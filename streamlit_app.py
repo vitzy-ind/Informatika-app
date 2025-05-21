@@ -5,4 +5,4 @@ st.write("halo")
 
 st.image("IMG_20250521_144428.jpg", width=300)
 st.write("cats shark")
-st.slidebar.title("halo")
+st.sidebar.title("halo")
