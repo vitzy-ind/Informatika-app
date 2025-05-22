@@ -15,13 +15,4 @@ if (angka % 2) == 0:
 else:
   st.write(f"Ganjil")
 
-# navigasi side bar 
-with st.sidebar :
-    selected = option_menu ('hitunglah luas bangun',
-    ['hitunglah luas persegi panjang',
-    'hitunglah luas segitiga'],
-    default_index=0)
-
-# halaman hitung luas persegi panjang 
-if (selected == 'Hitung luas persegi panjang') :
-    st.title('Hitunglah Luas Persegi panjang')
+st.sidebar.write("gtwsih")
