@@ -14,3 +14,10 @@ if (angka % 2) == 0:
   st.write(f"Genap")
 else:
   st.write(f"Ganjil")
+
+# navigasi side bar 
+with st.sidebar :
+    selected = option_menu ('hitunglah luas bangun',
+    ['hitunglah luas persegi panjang',
+    'hitunglah luas segitiga'],
+    default_index=0)
