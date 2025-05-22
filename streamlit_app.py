@@ -21,3 +21,7 @@ with st.sidebar :
     ['hitunglah luas persegi panjang',
     'hitunglah luas segitiga'],
     default_index=0)
+
+# halaman hitung luas persegi panjang 
+if (selected == 'Hitung luas persegi panjang') :
+    st.title('Hitunglah Luas Persegi panjang')
