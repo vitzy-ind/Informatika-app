@@ -17,7 +17,7 @@ else:
 
 st.sidebar.write("gtwsih")
 
-tab1,tab2,tab3,tab4=st.tabs(['a'.'b'.'c'.'d'.])
+tab1,tab2,tab3,tab4=st.tabs(['a','b','c','d'])
 with tab1:
     st.write('halo')
 with tab2:
