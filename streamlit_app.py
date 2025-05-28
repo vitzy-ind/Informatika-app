@@ -20,10 +20,13 @@ st.sidebar.write("gtwsih")
 tab1,tab2,tab3,tab4=st.tabs(['Error1','Error2','Error3','Error4'])
 with tab1:
     st.write('gtw')
+  
 with tab2:
     st.write('ba')
+  
 with tab3:
     st.write('ha')
+  
 with tab4:
     st.write('ho')
 
