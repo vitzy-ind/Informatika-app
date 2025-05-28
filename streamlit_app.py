@@ -26,6 +26,8 @@ with tab3:
     st.write('ha')
 with tab4:
     st.write('ho')
+
+  
     st.title("Aplikasi Sederhana")
 
     col1, col2 = st.columns(2)
