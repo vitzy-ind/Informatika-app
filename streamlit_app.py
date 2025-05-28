@@ -20,7 +20,7 @@ st.sidebar.write("gtwsih")
 st.title("Aplikasi Sederhana")
 
 # Menggunakan layout kolom
-  col1, col2 = st.columns(2)
+col1, col2 = st.columns(2)
 
 with col1:
     st.header("Aplikasi Mengecek Nilai Genap/Ganjil")
