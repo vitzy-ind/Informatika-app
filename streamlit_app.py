@@ -17,7 +17,7 @@ else:
 
 st.sidebar.write("gtwsih")
 
-tab1,tab2,tab3,tab4=st.tabs(['Error1','Error2','Error3','Error4'])
+tab1,tab2,tab3,tab4 = st.tabs(['Error1','Error2','Error3','Error4'])
 with tab1:
     st.write('gtw')
   
