@@ -16,7 +16,8 @@ else:
   st.write(f"Ganjil")
 
 st.sidebar.write("gtwsih")
-  st.title("Aplikasi Sederhana")
+
+st.title("Aplikasi Sederhana")
 
 # Menggunakan layout kolom
   col1, col2 = st.columns(2)
