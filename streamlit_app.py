@@ -17,9 +17,16 @@ else:
 
 st.sidebar.write("gtwsih")
 
-tab1,tab2,tab3,tab4=st.tabs(['a','b','c','d'])
+tab1,tab2,tab3,tab4=st.tabs(['Error1','Error2','Error3','Error4'])
 with tab1:
-    st.title("Aplikasi Sederhana")
+    st.write('gtw')
+with tab2:
+    st.write('ba')
+with tab3:
+    st.write('ha')
+with tab4:
+    st.write('ho')
+st.title("Aplikasi Sederhana")
 
 # Menggunakan layout kolom
 col1, col2 = st.columns(2)
@@ -56,9 +63,3 @@ with col2:
         st.write(f"Uang Kembalian: Rp. {kembalian_uang:,.0f}")
     else:
         st.write("Uang yang anda bayarkan kurang ")
-with tab2:
-    st.write('ba')
-with tab3:
-    st.write('ha')
-with tab4:
-    st.write('ho')
